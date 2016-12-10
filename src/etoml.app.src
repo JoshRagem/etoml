@@ -1,9 +1,11 @@
 {application, etoml, [
-	{description, "TOML language parser"},
-    {vsn, "0.1"},
-    {modules, []},
-    {registered, []},
-    {applications, [kernel, stdlib]},
-  	{env, []}
- ]}.
-
+  {description, "TOML language parser"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {maintainers, ["Joshua Barney"]},
+  {licenses, ["ISC"]},
+  {links, [{"Github", "https://github.com/JoshRagem/etoml"}]}
+]}.
